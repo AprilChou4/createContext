@@ -6,7 +6,7 @@ function Son(props) {
   return (
     //Consumer容器,可以拿到上文传递下来的name属性,并可以展示对应的值
     <Consumer>
-      {name => (
+      {value => (
         <div
           style={{
             border: "1px solid blue",
@@ -15,9 +15,9 @@ function Son(props) {
             textAlign: "center"
           }}
         >
-          <p>子组件。获取父组件的值:{name.name}</p>
+          <p>子组件。获取父组件的值:{value}</p>
           {/* 孙组件内容 */}
-          {/* <Grandson /> */}
+          <Grandson />
         </div>
       )}
     </Consumer>
