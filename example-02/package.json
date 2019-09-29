@@ -1,7 +1,7 @@
 {
-  "name": "useeffect",
+  "name": "example-02",
   "version": "1.0.0",
-  "description": "",
+  "description": "// 使用createContext传递",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
